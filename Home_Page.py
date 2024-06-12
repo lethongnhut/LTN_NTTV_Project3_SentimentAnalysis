@@ -472,7 +472,7 @@ with tab1:
 #    st.write("Ứng dụng Streamlit !")
 
     # Phần xử lý ảnh logo
-   try:
+    try:
         from PIL import Image
         img = Image.open('IMG/logo_ttth.jpg')
         st.image(img, caption='TRUNG TÂM TIN HỌC - ĐH KHTN')
