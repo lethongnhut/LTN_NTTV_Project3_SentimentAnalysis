@@ -820,7 +820,7 @@ with tab2:
     except FileNotFoundError:
         st.error("")    
 
-    st.subheader('Sentiment Analysis on ShopeeFood)
+    st.subheader('Sentiment Analysis on ShopeeFood')
 
     # ... (Phần còn lại của code trong tab 2, có thể tùy chỉnh)
 
