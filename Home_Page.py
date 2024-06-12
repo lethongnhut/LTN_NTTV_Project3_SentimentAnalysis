@@ -1278,7 +1278,7 @@ with subtab4:
     df = pd.read_csv('dataset/data1.csv')
     df2 = pd.read_csv('dataset/data2.csv')
     cols = ['IDRestaurant', 'Restaurant', 'Address', 'Time', 'Price', 'District','RatingNo', 'avgRating']
-    st.subheader('Thông tin nhà hàng')
+    #st.subheader('Thông tin nhà hàng')
     
     st.subheader('Dữ liệu nhà hàng')
     col1, col2 = st.columns(2)
