@@ -468,17 +468,18 @@ tab1, tab2 = st.tabs(["Lê Thống Nhứt", "Nguyễn Thị Tường Vy"])
 
 # Nội dung cho tab 1 (Lê Thống Nhứt)
 with tab1:
-    st.header("TRUNG TÂM TIN HỌC - ĐH KHTN")
-    #st.write("Ứng dụng Streamlit !")
-    # Phần xử lý ảnh logo
+    #st.header("Lê Thống Nhứt")
+    #st.write("Ứng dụng Streamlit!")
+    # Phần xử lý ảnh logo (có thể thay đổi nếu cần)
     try:
         from PIL import Image
-        img = Image.open('IMG/logo_ttth.jpg')
+        img = Image.open('IMG/logo_ttth.jpg')  
         st.image(img, caption='TRUNG TÂM TIN HỌC - ĐH KHTN')
     except FileNotFoundError:
-        st.error("Không tìm thấy tệp ảnh 'logo_ttth.jpg'. Vui lòng kiểm tra lại đường dẫn.")
-    st.title("Sentiment Analysis on ShopeeFood")
-   # st.header('Data Science')
+        st.error("")    
+
+    st.subheader('Sentiment Analysis on ShopeeFood')
+
     st.subheader('LDS0_K294_ONLINE_LeThongNhut')
 
     # Tạo tab bên trong tab1
@@ -821,7 +822,6 @@ with tab2:
 
     st.subheader('Sentiment Analysis on ShopeeFood')
 
-    # ... (Phần còn lại của code trong tab 2, có thể tùy chỉnh)
 
     # Tạo tab bên trong tab2
     subtab1, subtab2, subtab3, subtab4 = st.tabs(['Tổng quan Project', 'Xây dựng mô hình', 'Dự đoán bình luận tiêu cực hay tích cực', 'Thông tin nhà hàng'])
