@@ -480,40 +480,7 @@ def text_transform(comment):
     #  remove stopword vietnames
     comment = remove_stopword(comment, stopwords_lst)
     return comment 
-############################################################################3
-import streamlit as st
-import base64
-import os
-
-def get_base64_of_image(image_path):
-    try:
-        with open(image_path, "rb") as f:
-            data = f.read()
-            return base64.b64encode(data).decode()
-    except FileNotFoundError:
-        st.error(f"Không tìm thấy file 'S.jpg' tại đường dẫn: {image_path}")
-        return None  # Return None if the file isn't found
-
-# Get the absolute path to the image (adjust as needed)
-image_path = "IMG/Background.jpg"
-
-base64_image = get_base64_of_image(image_path)
-if base64_image:
-    page_bg_img = f"""
-    <style>
-    [data-testid="stAppViewContainer"] > .main {{
-    background-image: url("data:image/jpeg;base64,{base64_image}");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    }}
-    </style>
-    """
-
-    st.markdown(page_bg_img, unsafe_allow_html=True)
-else:
-    st.warning("Không thể tải ảnh nền.")
-###########################################################################################################################################################################################################################################
+#########################################################################################################################################################################
 # Tạo các tab
 tab1, tab2 = st.tabs(["Lê Thống Nhứt", "Nguyễn Thị Tường Vy"])
 
