@@ -479,9 +479,9 @@ with tab1:
     except FileNotFoundError:
         st.error("Không tìm thấy tệp ảnh 'logo_ttth.jpg'. Vui lòng kiểm tra lại đường dẫn.")
 
-     st.title("Sentiment Analysis on ShopeeFood")
+    st.title("Sentiment Analysis on ShopeeFood")
 #    st.header('Data Science')
-     st.subheader('LDS0_K294_ONLINE_LeThongNhut')
+    st.subheader('LDS0_K294_ONLINE_LeThongNhut')
 
     # Tạo tab bên trong tab1
     subtab1, subtab2, subtab3 = st.tabs(["Tổng quan.", "Xây dựng mô hình.", 'Dự đoán mới.'])
