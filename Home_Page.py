@@ -484,8 +484,6 @@ with tab1:
     st.header('Data Science')
     st.subheader('Sentiment Analysis on ShopeeFood - LDS0_K294_ONLINE_LeThongNhut')
 
-    # ... (Phần còn lại của code trong tab 1)
-
     # Tạo tab bên trong tab1
     subtab1, subtab2, subtab3 = st.tabs(["Tổng quan.", "Xây dựng mô hình.", 'Dự đoán mới.'])
 
@@ -821,10 +819,9 @@ with tab2:
     try:
         from PIL import Image
         img = Image.open('IMG/logo_ttth.jpg')  # Hoặc sử dụng một ảnh khác
-        st.image(img, caption='Trung tâm tin học - ĐH KHTN')
+        st.image(img, caption='TRUNG TÂM TIN HỌC - ĐH KHTN')
     except FileNotFoundError:
-        st.error("")
-    
+        st.error("")    
     # ... (Sao chép và điều chỉnh nội dung từ tab 1)
     st.title("Trung tâm tin học - ĐH KHTN")
     st.header('Data Science')
