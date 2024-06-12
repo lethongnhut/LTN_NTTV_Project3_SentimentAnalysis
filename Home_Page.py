@@ -909,8 +909,8 @@ with subtab1:
 with subtab2:
     st.subheader('Xây dựng mô hình')
         #----------------------------------------------------------------------------------------------------
-    Restaurants = pd.read_csv('data/1_Restaurants.csv') 
-    Reviews = pd.read_csv('data/2_Reviews.csv')
+    Restaurants = pd.read_csv('dataset/1_Restaurants.csv') 
+    Reviews = pd.read_csv('dataset/2_Reviews.csv')
     
     # Phần xem tổng quan dữ liệu
     st.subheader('Data Overview')
@@ -1286,8 +1286,8 @@ with subtab3:
 with subtab4:
     st.subheader('Thông tin nhà hàng')
         
-    df = pd.read_csv('data/data1.csv')
-    df2 = pd.read_csv('data/data2.csv')
+    df = pd.read_csv('dataset/data1.csv')
+    df2 = pd.read_csv('dataset/data2.csv')
     cols = ['IDRestaurant', 'Restaurant', 'Address', 'Time', 'Price', 'District','RatingNo', 'avgRating']
     st.subheader('Thông tin nhà hàng')
     
