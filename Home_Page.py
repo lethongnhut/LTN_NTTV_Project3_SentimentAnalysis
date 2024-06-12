@@ -480,8 +480,6 @@ with tab1:
 
     st.subheader('Sentiment Analysis on ShopeeFood')
 
-    st.subheader('LDS0_K294_ONLINE_LeThongNhut')
-
     # Tạo tab bên trong tab1
     subtab1, subtab2, subtab3 = st.tabs(["Tổng quan.", "Xây dựng mô hình.", 'Dự đoán mới.'])
 
