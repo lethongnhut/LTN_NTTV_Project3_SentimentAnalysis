@@ -476,13 +476,13 @@ with tab1:
     try:
         from PIL import Image
         img = Image.open('IMG/logo_ttth.jpg')
-        st.image(img, caption='LDS0_K294_ONLINE_LeThongNhut')
+        st.image(img, caption='TRUNG TÂM TIN HỌC - ĐH KHTN')
     except FileNotFoundError:
         st.error("Không tìm thấy tệp ảnh 'logo_ttth.jpg'. Vui lòng kiểm tra lại đường dẫn.")
 
     st.title("Trung tâm tin học - ĐH KHTN")
     st.header('Data Science')
-    st.subheader('Sentiment Analysis on ShopeeFood')
+    st.subheader('Sentiment Analysis on ShopeeFood - LDS0_K294_ONLINE_LeThongNhut')
 
     # ... (Phần còn lại của code trong tab 1)
 
