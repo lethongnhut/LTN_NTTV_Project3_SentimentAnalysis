@@ -823,7 +823,7 @@ with tab2:
         img = Image.open('IMG/logo_ttth.jpg')  # Hoặc sử dụng một ảnh khác
         st.image(img, caption='Trung tâm tin học - ĐH KHTN')
     except FileNotFoundError:
-        st.error("Không tìm thấy tệp ảnh. Vui lòng kiểm tra lại đường dẫn.")
+        st.error("")
     
     # ... (Sao chép và điều chỉnh nội dung từ tab 1)
     st.title("Trung tâm tin học - ĐH KHTN")
