@@ -820,7 +820,7 @@ with tab2:
     # Phần xử lý ảnh logo (có thể thay đổi nếu cần)
     try:
         from PIL import Image
-        img = Image.open('logo_ttth.jpg')  # Hoặc sử dụng một ảnh khác
+        img = Image.open('IMG/logo_ttth.jpg')  # Hoặc sử dụng một ảnh khác
         st.image(img, caption='Trung tâm tin học - ĐH KHTN')
     except FileNotFoundError:
         st.error("Không tìm thấy tệp ảnh. Vui lòng kiểm tra lại đường dẫn.")
