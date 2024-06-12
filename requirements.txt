@@ -14,3 +14,15 @@ pyvi
 XlsxWriter
 gTTS
 playsound
+openpyxl
+numpy
+pandas
+seaborn
+streamlit
+underthesea
+wordcloud
+import_ipynb
+playsound
+gtts
+pyaudio
+speechrecognition
