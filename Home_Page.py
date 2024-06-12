@@ -809,9 +809,8 @@ with subtab3:
 ##########################################################################################################################################################################
 # Nội dung cho tab 2 (Nguyễn Thị Tường Vy) - Tương tự như tab 1
 with tab2:
-    st.header("Nguyễn Thị Tường Vy")
-    st.write("Ứng dụng Streamlit!")
-
+    #st.header("Nguyễn Thị Tường Vy")
+    #st.write("Ứng dụng Streamlit!")
     # Phần xử lý ảnh logo (có thể thay đổi nếu cần)
     try:
         from PIL import Image
