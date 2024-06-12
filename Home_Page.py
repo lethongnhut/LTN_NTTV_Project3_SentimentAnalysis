@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
+import seaborn as snsg
 from wordcloud import WordCloud
 
 from LTN_Library_Functions import *
@@ -473,7 +472,7 @@ with tab1:
 #    st.write("Ứng dụng Streamlit !")
 
     # Phần xử lý ảnh logo
-    try:
+   try:
         from PIL import Image
         img = Image.open('IMG/logo_ttth.jpg')
         st.image(img, caption='TRUNG TÂM TIN HỌC - ĐH KHTN')
