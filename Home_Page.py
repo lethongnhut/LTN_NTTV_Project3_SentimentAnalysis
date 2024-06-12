@@ -819,10 +819,8 @@ with tab2:
         st.image(img, caption='TRUNG TÂM TIN HỌC - ĐH KHTN')
     except FileNotFoundError:
         st.error("")    
-    # ... (Sao chép và điều chỉnh nội dung từ tab 1)
-    st.title("Trung tâm tin học - ĐH KHTN")
-    st.header('Data Science')
-    st.subheader('Sentiment Analysis on ShopeeFood - Phân tích tâm lý trên ShopeeFood')
+
+    st.subheader('Sentiment Analysis on ShopeeFood)
 
     # ... (Phần còn lại của code trong tab 2, có thể tùy chỉnh)
 
