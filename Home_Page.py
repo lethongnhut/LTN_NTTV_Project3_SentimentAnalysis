@@ -469,14 +469,14 @@ tab1, tab2 = st.tabs(["Lê Thống Nhứt", "Nguyễn Thị Tường Vy"])
 
 # Nội dung cho tab 1 (Lê Thống Nhứt)
 with tab1:
-    st.header("LDS0_K294_ONLINE_LeThongNhut")
+    st.header("Trung tâm tin học - ĐH KHTN")
     st.write("Ứng dụng Streamlit !")
 
     # Phần xử lý ảnh logo
     try:
         from PIL import Image
         img = Image.open('IMG/logo_ttth.jpg')
-        st.image(img, caption='Trung tâm tin học - ĐH KHTN')
+        st.image(img, caption='LDS0_K294_ONLINE_LeThongNhut')
     except FileNotFoundError:
         st.error("Không tìm thấy tệp ảnh 'logo_ttth.jpg'. Vui lòng kiểm tra lại đường dẫn.")
 
