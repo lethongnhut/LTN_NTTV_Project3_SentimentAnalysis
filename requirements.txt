@@ -12,3 +12,4 @@ wordcloud
 import_ipynb
 pyvi
 XlsxWriter
+gTTS
