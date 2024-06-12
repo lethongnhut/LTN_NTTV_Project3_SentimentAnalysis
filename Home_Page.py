@@ -469,8 +469,7 @@ tab1, tab2 = st.tabs(["Lê Thống Nhứt", "Nguyễn Thị Tường Vy"])
 # Nội dung cho tab 1 (Lê Thống Nhứt)
 with tab1:
     st.header("TRUNG TÂM TIN HỌC - ĐH KHTN")
-#   st.write("Ứng dụng Streamlit !")
-
+    #st.write("Ứng dụng Streamlit !")
     # Phần xử lý ảnh logo
     try:
         from PIL import Image
@@ -478,9 +477,8 @@ with tab1:
         st.image(img, caption='TRUNG TÂM TIN HỌC - ĐH KHTN')
     except FileNotFoundError:
         st.error("Không tìm thấy tệp ảnh 'logo_ttth.jpg'. Vui lòng kiểm tra lại đường dẫn.")
-
     st.title("Sentiment Analysis on ShopeeFood")
-#    st.header('Data Science')
+   # st.header('Data Science')
     st.subheader('LDS0_K294_ONLINE_LeThongNhut')
 
     # Tạo tab bên trong tab1
