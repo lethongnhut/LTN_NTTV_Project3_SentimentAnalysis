@@ -495,7 +495,7 @@ def get_base64_of_image(image_path):
         return None  # Return None if the file isn't found
 
 # Get the absolute path to the image (adjust as needed)
-image_path = "IMG/Background.jp"
+image_path = "IMG/Background.jpg"
 
 base64_image = get_base64_of_image(image_path)
 if base64_image:
