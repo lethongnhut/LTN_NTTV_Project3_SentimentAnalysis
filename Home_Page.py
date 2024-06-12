@@ -475,7 +475,7 @@ with tab1:
     # Phần xử lý ảnh logo
     try:
         from PIL import Image
-        img = Image.open('logo_ttth.jpg')
+        img = Image.open('IMG/logo_ttth.jpg')
         st.image(img, caption='Trung tâm tin học - ĐH KHTN')
     except FileNotFoundError:
         st.error("Không tìm thấy tệp ảnh 'logo_ttth.jpg'. Vui lòng kiểm tra lại đường dẫn.")
