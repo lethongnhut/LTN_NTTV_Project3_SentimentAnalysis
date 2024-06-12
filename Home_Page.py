@@ -478,7 +478,7 @@ with tab1:
     except FileNotFoundError:
         st.error("")    
 
-    st.subheader('Sentiment Analysis on ShopeeFood')
+    st.subheader('Sentiment Analysis on ShopeeFood (Projec 3)')
 
     # Tạo tab bên trong tab1
     subtab1, subtab2, subtab3 = st.tabs(["Tổng quan.", "Xây dựng mô hình.", 'Dự đoán mới.'])
@@ -818,7 +818,7 @@ with tab2:
     except FileNotFoundError:
         st.error("")    
 
-    st.subheader('Sentiment Analysis on ShopeeFood')
+    st.subheader('Sentiment Analysis on ShopeeFood (Projec 3)')
 
 
     # Tạo tab bên trong tab2
