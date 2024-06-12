@@ -58,12 +58,31 @@ from imblearn.under_sampling import RandomUnderSampler
 from imblearn.over_sampling import RandomOverSampler
 
 #----------------------------------------------------------------------------------------------------
+import streamlit as st
+
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] > .main {{
+background-image: url("https://i.postimg.cc/4xgNnkfX/Untitled-design.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: local;
+}}
+[data-testid="stHeader"] {{
+background: rgba(0,0,0,0);
+}}
+</style>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
+#-----------------------------------------------------------------------------------------------------
 # Support voice
 import datetime
 import re
 import urllib.request as urllib2
 from time import strftime
-
 #################
 ##LOAD EMOJICON
 file = open('files/emojicon.txt', 'r', encoding="utf8")
