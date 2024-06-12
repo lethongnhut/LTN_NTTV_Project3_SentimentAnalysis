@@ -469,7 +469,7 @@ tab1, tab2 = st.tabs(["Lê Thống Nhứt", "Nguyễn Thị Tường Vy"])
 
 # Nội dung cho tab 1 (Lê Thống Nhứt)
 with tab1:
-    st.header("Lê Thống Nhứt")
+    st.header("LDS0_K294_ONLINE_LeThongNhut")
     st.write("Ứng dụng Streamlit !")
 
     # Phần xử lý ảnh logo
