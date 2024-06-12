@@ -1,0 +1,14 @@
+scikit-learn==1.2.2
+imbalanced-learn
+joblib==1.2.0
+imblearn
+openpyxl
+numpy
+pandas
+seaborn
+streamlit
+underthesea
+wordcloud
+import_ipynb
+pyvi
+XlsxWriter
